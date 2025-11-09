@@ -7,8 +7,7 @@ export interface App {
 export const apps: App[] = [
   {
     name: "Funding",
-    href: "http://localhost:3000",
+    href: "https://funding.showmehow.fun",
     description: "zero friction funding flows for your app",
   },
 ];
-
