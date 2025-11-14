@@ -28,4 +28,5 @@ export const middleware = paymentMiddleware(
 // Configure which paths the middleware should run on
 export const config = {
   matcher: ["/api/joke/:path*"],
+  runtime: "nodejs", // Use Node.js runtime to avoid Edge function size limit
 };
